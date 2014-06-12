@@ -1,0 +1,25 @@
+Simple Web Server With Google Hangout Redirect
+=================
+
+If you have created a static google hangout, this allows you 
+to quickly create a simple webserver to serve up the redirect link.
+
+
+##### Create a Python Virtual Environment 
+```
+virtualenv --distribute ENV_WEB
+cd ENV_WEB
+```
+
+##### Check out this code
+```
+git clone ..
+```
+
+##### Activate your Python Virtual Enviornment
+```
+./source/bin/activate
+```
+
+##### Follow the instructions in the file run_www
+

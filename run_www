@@ -1,0 +1,11 @@
+# to run this script:
+#  1)  su kebray
+#  2)  Make sure to kill any instances already running
+#      a) ps ax | grep Simple
+#      b) kill XXXX
+#  3)  source bin/activate
+#  4)  nohup ./run_www
+# you must run this as nohup ./run_www
+# do not run as root.
+cd www
+python -m SimpleHTTPServer 8080 &
